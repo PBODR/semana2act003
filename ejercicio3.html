@@ -8,7 +8,8 @@
 			width: 300px,
 			height: 400px;
 			background-color: red; 
-			margin: 50px
+			margin: 50px;
+			border:1px solid gray;
 		}
 		.spain .yellowrectangle {
 			background-color: yellow;
@@ -24,7 +25,8 @@
 			width: 300px,
 			height: 400px;
 			background-color: red; 
-			margin: 50px
+			margin: 50px;
+			border:1px solid gray;
 		}
 		.dinamarca .whiterectangle1 {
 			background-color: white;
@@ -42,31 +44,28 @@
 		.emiratos {
 			width: 300px,
 			height: 400px;
-			background-color: red;								
-			margin: 50px
+			background-color: red;							
+			margin: 50px;
+			border:1px solid gray;
+			position: relative;
 		}
 		.emiratos .redrectangle {
 			background-color: red;
 			height: 100%;
 			width: 30%;
 			float: left;
-			position: relative;
-	
 		}
 		.emiratos .greenrectangle {
 			background-color: green;
 			height: 33%;
 			width: 70%;
 			float: right;
-			
-		
 		}
-		.emiratos .whiterectangle {
+		.emiratos .whiterectangle3 {
 			background-color: white;
 			height: 33%;
 			width: 70%;
-			float: right;
-		
+			float: right;	
 		}
 		.emiratos .blackrectangle {
 			background-color: black;
@@ -77,21 +76,29 @@
 		.japon {
 			width: 300px,
 			height: 400px;
-			background-color: black; 
-			margin: 50px
-		}
-
-		}
-		.japon .circle {
-		     width: 300px;
-		     height: 300px;
-		     -moz-border-radius: 50%;
-		     -webkit-border-radius: 50%;
-		     border-radius: 50%;
-		     background: red;
-		     position: relative;
-		     float: center;
-		}
+			margin:50px;
+			background-color: white;
+			border: 1px solid gray; 
+			margin-top: 900px;
+			position: relative;
+			}
+	.japon .whiterectangle4 {
+			background-color: white;
+			height: 100%;
+			width: 100%;
+			}
+	.japon .circle {
+		    width: 400px;
+		    height: 400px;
+		    -moz-border-radius: 50%;
+		    -webkit-border-radius: 50%;
+		    border-radius: 50%;
+		    background: red;
+		    position: absolute;
+		    float:left;
+		    top:210px;
+		    left:420px;
+		 	}
 	</style>
 
 	<body>
@@ -108,14 +115,13 @@
 			<div class="emiratos">
 				<div class="redrectangle"></div>
 				<div class="greenrectangle"></div>
-				<div class="whiterectangle"></div>
+				<div class="whiterectangle3"></div>
 				<div class="blackrectangle"></div>
 			</div>	
 			<div class="japon">
-				<div class="circle"></div>
-			
-			</div>
-			
+					<div class="whiterectangle4"></div>
+					<div class="circle"></div>
+			</div>		
 		</div>
 	</body>
 </html>
